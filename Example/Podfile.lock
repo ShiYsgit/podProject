@@ -1,5 +1,5 @@
 PODS:
-  - SYPodLib (0.1.0)
+  - SYPodLib (0.0.1)
 
 DEPENDENCIES:
   - SYPodLib (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SYPodLib: 3da08df4ffe3f3c4f9cc316c38dc0a34bb3ea66b
+  SYPodLib: 80816179855f667d82af7ef10817a9751d7c26e9
 
 PODFILE CHECKSUM: 8342020197fd23b6eedef901366d6f329970198b
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.1
