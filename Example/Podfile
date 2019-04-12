@@ -8,6 +8,5 @@ target 'SYPodLib_Example' do
   target 'SYPodLib_Tests' do
     inherit! :search_paths
 
-    pod 'FBSnapshotTestCase'
   end
 end
