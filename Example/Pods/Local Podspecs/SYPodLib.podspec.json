@@ -1,6 +1,6 @@
 {
   "name": "SYPodLib",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "summary": "SYSpec",
   "description": "ShiY私有库。。。。",
   "homepage": "https://github.com/ShiYsgit/syspec",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/ShiYsgit/podProject.git",
-    "tag": "0.0.2"
+    "tag": "0.0.4"
   },
   "platforms": {
     "ios": "8.0"
