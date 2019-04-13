@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SYPodLib'
-  s.version          = '0.0.4'
+  s.version          = '0.0.5'
   s.summary          = 'SYSpec'
 
 # This description is used to generate tags and improve search results.
@@ -32,6 +32,14 @@ ShiY私有库。。。。
 
   s.source_files = 'SYPodLib/Classes/**/*'
   
+  s.subspec 'SYWaterfallLayout' do |sp|
+    sp.source_files = 'Classes/#{component.base_name}/*.{swift}'
+  end
+  
+#  s.subspec 'example' do |example|
+#    example.source_files = 'Classes/#{component.base_name}/*.{swift,h,m}'
+#  end
+
   # s.resource_bundles = {
   #   'SYPodLib' => ['SYPodLib/Assets/*.png']
   # }

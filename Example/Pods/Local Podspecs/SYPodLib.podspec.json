@@ -1,6 +1,6 @@
 {
   "name": "SYPodLib",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "summary": "SYSpec",
   "description": "ShiY私有库。。。。",
   "homepage": "https://github.com/ShiYsgit/syspec",
@@ -13,10 +13,16 @@
   },
   "source": {
     "git": "https://github.com/ShiYsgit/podProject.git",
-    "tag": "0.0.4"
+    "tag": "0.0.5"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "SYPodLib/Classes/**/*"
+  "source_files": "SYPodLib/Classes/**/*",
+  "subspecs": [
+    {
+      "name": "SYWaterfallLayout",
+      "source_files": "Classes/#{component.base_name}/*.{swift}"
+    }
+  ]
 }

@@ -10,7 +10,6 @@
 #endif
 #endif
 
-#import "Test.h"
 
 FOUNDATION_EXPORT double SYPodLibVersionNumber;
 FOUNDATION_EXPORT const unsigned char SYPodLibVersionString[];
