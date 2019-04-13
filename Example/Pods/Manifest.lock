@@ -1,7 +1,7 @@
 PODS:
-  - SYPodLib (0.0.5):
-    - SYPodLib/SYWaterfallLayout (= 0.0.5)
-  - SYPodLib/SYWaterfallLayout (0.0.5)
+  - SYPodLib (0.0.6):
+    - SYPodLib/SYWaterfallLayout (= 0.0.6)
+  - SYPodLib/SYWaterfallLayout (0.0.6)
 
 DEPENDENCIES:
   - SYPodLib (from `../`)
@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SYPodLib: 67dd777c1fbd7803f06c8fa328d84fa21569aaeb
+  SYPodLib: a379d5a061bcc0995beb7e16c21369139f8ec42b
 
 PODFILE CHECKSUM: 8342020197fd23b6eedef901366d6f329970198b
 

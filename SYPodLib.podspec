@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SYPodLib'
-  s.version          = '0.0.5'
+  s.version          = '0.0.7'
   s.summary          = 'SYSpec'
 
 # This description is used to generate tags and improve search results.
@@ -26,14 +26,13 @@ ShiY私有库。。。。
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'syyyyyy191@126.com' => 'syyyyyy191@126.com' }
   s.source           = { :git => 'https://github.com/ShiYsgit/podProject.git', :tag => s.version.to_s }
+  s.swift_version    = '4.0'
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'SYPodLib/Classes/**/*'
-  
   s.subspec 'SYWaterfallLayout' do |sp|
-    sp.source_files = 'Classes/#{component.base_name}/*.{swift}'
+    sp.source_files = 'SYPodLib/Classes/SYWaterfallLayout'
   end
   
 #  s.subspec 'example' do |example|
