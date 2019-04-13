@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		108EBC71C609E778B4EBE0F04749F4FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		215DD1355122FF840BC420AC2A67959E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		2D0C71DA492256D56D162D6C0FB91DE5 /* SYPodLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA50F8CFC0080BF3628060161E569B3C /* SYPodLib-dummy.m */; };
+		2D0C71DA492256D56D162D6C0FB91DE5 /* SYPodLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5DC8719C6A7E2CE53AB630955841663 /* SYPodLib-dummy.m */; };
 		8BC90D432D742518A37130ECEA6003B6 /* Pods-SYPodLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 57808B3A54F9A0B860DBB53FB36C3C81 /* Pods-SYPodLib_Example-dummy.m */; };
 		C141060CEE6727C077895B76D3E52600 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		C831F0FF7ABC9FD18CE088642979C088 /* Pods-SYPodLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24EB72F23437D63B9581F2CBB8513DEB /* Pods-SYPodLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D74EDC8AB4C94FA06E1B4D949392EA60 /* SYWaterfallLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D8D94855724CFA39AEF414AC1801A5 /* SYWaterfallLayout.swift */; };
-		E35F931C48EC4B29D9DDF451DC27989C /* SYPodLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0228087E74071B3665FF78872EEEBE6 /* SYPodLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D74EDC8AB4C94FA06E1B4D949392EA60 /* SYWaterfallLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E76DB50F646031DA8216C1A1DA18F5 /* SYWaterfallLayout.swift */; };
+		E35F931C48EC4B29D9DDF451DC27989C /* SYPodLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F2774567CF513D5EB4B0EF631092928F /* SYPodLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCC5EFBF0F13A7878D8DF1A5D87FA8FD /* Pods-SYPodLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B287B85CC80DCD93884235FE111275B0 /* Pods-SYPodLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FFA7C3D572EE95193E190606C16A120D /* Pods-SYPodLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F984174944F52D948119F6D24C9A51F /* Pods-SYPodLib_Tests-dummy.m */; };
 /* End PBXBuildFile section */
@@ -40,34 +40,34 @@
 		09B644366C91B19BB954DB78CC943F97 /* Pods_SYPodLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SYPodLib_Example.framework; path = "Pods-SYPodLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1796423D7AA6B57B0ADA87DAF055191C /* Pods-SYPodLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SYPodLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		24EB72F23437D63B9581F2CBB8513DEB /* Pods-SYPodLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SYPodLib_Example-umbrella.h"; sourceTree = "<group>"; };
-		25D8D94855724CFA39AEF414AC1801A5 /* SYWaterfallLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SYWaterfallLayout.swift; path = SYPodLib/Classes/SYWaterfallLayout/SYWaterfallLayout.swift; sourceTree = "<group>"; };
 		2EEE475E73CDE8600CFF91CE57555029 /* Pods-SYPodLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYPodLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		417045DA40A60E21042F42A53C7B8287 /* Pods-SYPodLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYPodLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4475C363771B5038A1D22F4C1ADF8F30 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		57808B3A54F9A0B860DBB53FB36C3C81 /* Pods-SYPodLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SYPodLib_Example-dummy.m"; sourceTree = "<group>"; };
 		59416F8FBBC7BD38F012C731051C9B09 /* Pods-SYPodLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYPodLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5B89131486FAB8A4119B1F5DEA339792 /* Pods-SYPodLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYPodLib_Tests-Info.plist"; sourceTree = "<group>"; };
+		5CB0E705F00A0F2A2D3C04FF604D9173 /* SYPodLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SYPodLib.xcconfig; sourceTree = "<group>"; };
 		5FC18170A616595403A64FD7B7CA68E2 /* Pods-SYPodLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYPodLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		600BC175FD94C1FF254E4B62CD264A6C /* Pods-SYPodLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SYPodLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		70E76DB50F646031DA8216C1A1DA18F5 /* SYWaterfallLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SYWaterfallLayout.swift; path = SYPodLib/Classes/SYWaterfallLayout/SYWaterfallLayout.swift; sourceTree = "<group>"; };
 		71C63B4F6756C7CF0720ED7C80473EBB /* SYPodLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SYPodLib.framework; path = SYPodLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7DD93BFBD3A7E19C0BE3C808E5A66FCC /* SYPodLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SYPodLib.xcconfig; sourceTree = "<group>"; };
+		776C26688024DAF48D288717E8DF9B9D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9108492B181831A2940231D481F774F8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F984174944F52D948119F6D24C9A51F /* Pods-SYPodLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SYPodLib_Tests-dummy.m"; sourceTree = "<group>"; };
-		A0228087E74071B3665FF78872EEEBE6 /* SYPodLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYPodLib-umbrella.h"; sourceTree = "<group>"; };
-		A2490E0B376C47EF223250D70CA4D77E /* SYPodLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYPodLib-prefix.pch"; sourceTree = "<group>"; };
+		A12090DC4C979E33A7060D4284D08479 /* SYPodLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SYPodLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A3BBCA956CD4B50A9230C8A2043028C0 /* Pods-SYPodLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SYPodLib_Tests.modulemap"; sourceTree = "<group>"; };
-		AFD5133390DB94CB27EBA4475E96830B /* SYPodLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SYPodLib-Info.plist"; sourceTree = "<group>"; };
 		B287B85CC80DCD93884235FE111275B0 /* Pods-SYPodLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SYPodLib_Tests-umbrella.h"; sourceTree = "<group>"; };
-		B31FA4D213992838174E9643524A309A /* SYPodLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SYPodLib.modulemap; sourceTree = "<group>"; };
+		B316C738D1969364F139DF040B00C618 /* SYPodLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SYPodLib-Info.plist"; sourceTree = "<group>"; };
 		B462B7CE2A3CB50455AD742F3D991671 /* Pods_SYPodLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SYPodLib_Tests.framework; path = "Pods-SYPodLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C351150A8B7A0C0973E2AF25B84E63C0 /* Pods-SYPodLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYPodLib_Example-Info.plist"; sourceTree = "<group>"; };
 		C793E6A9C75DC3E0F862DB9952D2C929 /* Pods-SYPodLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SYPodLib_Example-frameworks.sh"; sourceTree = "<group>"; };
 		C9BFA6E58369B3803D3168207ED207A9 /* Pods-SYPodLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SYPodLib_Example.modulemap"; sourceTree = "<group>"; };
-		CA50F8CFC0080BF3628060161E569B3C /* SYPodLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SYPodLib-dummy.m"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D00120091474F3EDECB2667B65E1CB21 /* SYPodLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SYPodLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D10E31882093F0EF994AF1E5093ADC59 /* Pods-SYPodLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYPodLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D561E21887632950DEDDE80364F45DF4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E128326AFF829D0E7142EDD2D3B91048 /* SYPodLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SYPodLib.modulemap; sourceTree = "<group>"; };
+		E5DC8719C6A7E2CE53AB630955841663 /* SYPodLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SYPodLib-dummy.m"; sourceTree = "<group>"; };
+		EDE7C1F8BCDA32DF76DCABBDB82CBE12 /* SYPodLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYPodLib-prefix.pch"; sourceTree = "<group>"; };
+		F2774567CF513D5EB4B0EF631092928F /* SYPodLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYPodLib-umbrella.h"; sourceTree = "<group>"; };
 		F537CDF30A6EEC06BC8FAF435FFEB3B0 /* Pods-SYPodLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYPodLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,6 +99,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02A7EB46F88AFCC018C4E440CCD2F74C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				776C26688024DAF48D288717E8DF9B9D /* LICENSE */,
+				9108492B181831A2940231D481F774F8 /* README.md */,
+				A12090DC4C979E33A7060D4284D08479 /* SYPodLib.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		168248751595A7366E5C229ECAD2B426 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -106,20 +116,6 @@
 				BE1D67C1AD823B61E5F3BDD84C98BA11 /* Pods-SYPodLib_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		4DE551EED35B8787C233DB561E39E39D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B31FA4D213992838174E9643524A309A /* SYPodLib.modulemap */,
-				7DD93BFBD3A7E19C0BE3C808E5A66FCC /* SYPodLib.xcconfig */,
-				CA50F8CFC0080BF3628060161E569B3C /* SYPodLib-dummy.m */,
-				AFD5133390DB94CB27EBA4475E96830B /* SYPodLib-Info.plist */,
-				A2490E0B376C47EF223250D70CA4D77E /* SYPodLib-prefix.pch */,
-				A0228087E74071B3665FF78872EEEBE6 /* SYPodLib-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SYPodLib";
 			sourceTree = "<group>";
 		};
 		697FDFF29940027C876D71001160ED0B /* Products */ = {
@@ -135,9 +131,20 @@
 		7B5B414CAB0949833CB166C4C3E71F90 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E552AE2CF7B6D3A43840ED7B583454D2 /* SYPodLib */,
+				838298F66621688841AB962CE2D3B675 /* SYPodLib */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		838298F66621688841AB962CE2D3B675 /* SYPodLib */ = {
+			isa = PBXGroup;
+			children = (
+				02A7EB46F88AFCC018C4E440CCD2F74C /* Pod */,
+				CF75F271AFA4082D72C1F6EE5D2C9F13 /* Support Files */,
+				D966694D2D800A4059AD4DC0F883E5F6 /* SYWaterfallLayout */,
+			);
+			name = SYPodLib;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
@@ -146,16 +153,6 @@
 				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		AE0DEA5C7F610D58EEE63900752F36D8 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				4475C363771B5038A1D22F4C1ADF8F30 /* LICENSE */,
-				D561E21887632950DEDDE80364F45DF4 /* README.md */,
-				D00120091474F3EDECB2667B65E1CB21 /* SYPodLib.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		BE1D67C1AD823B61E5F3BDD84C98BA11 /* Pods-SYPodLib_Tests */ = {
@@ -202,6 +199,20 @@
 			);
 			sourceTree = "<group>";
 		};
+		CF75F271AFA4082D72C1F6EE5D2C9F13 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E128326AFF829D0E7142EDD2D3B91048 /* SYPodLib.modulemap */,
+				5CB0E705F00A0F2A2D3C04FF604D9173 /* SYPodLib.xcconfig */,
+				E5DC8719C6A7E2CE53AB630955841663 /* SYPodLib-dummy.m */,
+				B316C738D1969364F139DF040B00C618 /* SYPodLib-Info.plist */,
+				EDE7C1F8BCDA32DF76DCABBDB82CBE12 /* SYPodLib-prefix.pch */,
+				F2774567CF513D5EB4B0EF631092928F /* SYPodLib-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SYPodLib";
+			sourceTree = "<group>";
+		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -210,15 +221,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E552AE2CF7B6D3A43840ED7B583454D2 /* SYPodLib */ = {
+		D966694D2D800A4059AD4DC0F883E5F6 /* SYWaterfallLayout */ = {
 			isa = PBXGroup;
 			children = (
-				25D8D94855724CFA39AEF414AC1801A5 /* SYWaterfallLayout.swift */,
-				AE0DEA5C7F610D58EEE63900752F36D8 /* Pod */,
-				4DE551EED35B8787C233DB561E39E39D /* Support Files */,
+				70E76DB50F646031DA8216C1A1DA18F5 /* SYWaterfallLayout.swift */,
 			);
-			name = SYPodLib;
-			path = ../..;
+			name = SYWaterfallLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -533,7 +541,7 @@
 		};
 		248B9850E1359F84054AB555DB9C3963 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DD93BFBD3A7E19C0BE3C808E5A66FCC /* SYPodLib.xcconfig */;
+			baseConfigurationReference = 5CB0E705F00A0F2A2D3C04FF604D9173 /* SYPodLib.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -661,7 +669,7 @@
 		};
 		8BB42C3B463165CFB98537BD8EAA4610 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DD93BFBD3A7E19C0BE3C808E5A66FCC /* SYPodLib.xcconfig */;
+			baseConfigurationReference = 5CB0E705F00A0F2A2D3C04FF604D9173 /* SYPodLib.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

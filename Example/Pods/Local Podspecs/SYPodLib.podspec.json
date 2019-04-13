@@ -18,11 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "SYPodLib/Classes/**/*",
   "subspecs": [
     {
       "name": "SYWaterfallLayout",
-      "source_files": "Classes/#{component.base_name}/*.{swift}"
+      "source_files": "SYPodLib/Classes/SYWaterfallLayout"
     }
   ]
 }
