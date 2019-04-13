@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SYPodLib'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'SYSpec'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 ShiY私有库。。。。
                        DESC
 
-  s.homepage         = 'https://github.com/ShiYsgit/syspec/tree/master'
+  s.homepage         = 'https://github.com/ShiYsgit/syspec'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'syyyyyy191@126.com' => 'syyyyyy191@126.com' }
-  s.source           = { :git => 'https://github.com/ShiYsgit/syspec.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ShiYsgit/podProject.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

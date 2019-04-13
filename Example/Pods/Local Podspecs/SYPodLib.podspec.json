@@ -1,9 +1,9 @@
 {
   "name": "SYPodLib",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "SYSpec",
   "description": "ShiY私有库。。。。",
-  "homepage": "https://github.com/ShiYsgit/syspec/tree/master",
+  "homepage": "https://github.com/ShiYsgit/syspec",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,8 @@
     "syyyyyy191@126.com": "syyyyyy191@126.com"
   },
   "source": {
-    "git": "https://github.com/ShiYsgit/syspec.git",
-    "tag": "0.0.1"
+    "git": "https://github.com/ShiYsgit/podProject.git",
+    "tag": "0.0.2"
   },
   "platforms": {
     "ios": "8.0"
